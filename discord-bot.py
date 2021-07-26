@@ -3,7 +3,7 @@ import openai
 
 TOKEN = '<Discord-Bot-Token>'
 client = discord.Client()
-openai.api_key = 'Openai-API-Key'
+openai.api_key = '<Openai-API-Key>'
 
 @client.event
 async def on_ready():
